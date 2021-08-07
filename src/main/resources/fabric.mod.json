@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "quickpvp",
+  "version": "${version}",
+  "name": "QuickPVP",
+  "description": "A fast-paced combat team game.",
+  "authors": [
+    "redcreeper14385"
+  ],
+  "license": "LGPLv3",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.redcreeper14385.quickpvp.QuickPvP"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.9.1",
+    "fabric": "*",
+    "minecraft": "1.16.4",
+    "plasmid": "0.4.x"
+  }
+}
